@@ -59,6 +59,7 @@ const loadSongs = (songs) => {
 songIndex = 0;
 
 // loadSongs(songs[2]);
+//loadSongs(songs[2]);
 
 const nextSong = () =>{
     songIndex = (songIndex + 1) % songs.length;
